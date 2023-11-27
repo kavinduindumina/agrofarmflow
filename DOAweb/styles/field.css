@@ -1,0 +1,74 @@
+
+body {
+    background-color: #f8f9fa;
+    background-image: url("https://images.pexels.com/photos/158603/wheat-wheat-field-cereals-field-158603.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.dashboard-content {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table thead th {
+    background-color: #f5f5f5;
+    border-top: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Custom styles for queries section */
+.query-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.list-unstyled li{
+    padding: 5px;
+    margin-bottom: 10px;
+    background: #9c07ff;
+    box-shadow: 0 2px 8px rgb(169, 0, 254);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.list-unstyled a{
+    color: white;
+    margin-left: 5px;
+}
+.list-unstyled button{
+    background-color: #ff2c11;
+    border: none;
+    align-content: flex-end;
+}
+
+.btn-primary a{
+    color: white;
+}
